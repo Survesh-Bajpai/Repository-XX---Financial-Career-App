@@ -3,297 +3,353 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Career Planner  ©Survesh Bajpai Research</title>
+    <title>NISM vs US Financial Certifications Analysis</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="app">
-        <!-- Header -->
-        <header class="app-header">
-            <div class="container">
-                <div class="header-content">
-                    <h1>Financial Certification Career Planner ©Survesh Bajpai Research</h1>
-                    <div class="header-controls">
-                        <button class="btn btn--secondary theme-toggle" id="themeToggle">
-                            🌙 Dark Mode
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="header-title">NISM vs US Certifications</h1>
+                <p class="header-subtitle">Compare Indian NISM and US Financial Certifications</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-menu">
+                <button class="nav-item active" data-section="dashboard">📊 Dashboard</button>
+                <button class="nav-item" data-section="salaries">💰 Salaries</button>
+                <button class="nav-item" data-section="subjects">📚 Subjects</button>
+                <button class="nav-item" data-section="career">🌳 Career Simulator</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section active">
+                <div class="section-header">
+                    <h2>Dashboard Overview</h2>
+                    <p class="section-subtitle">Key insights and comparisons between NISM and US financial certifications</p>
+                </div>
+
+                <!-- Key Statistics -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: var(--color-bg-1);">📋</div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">17</h3>
+                            <p class="stat-label">Total Certifications</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: var(--color-bg-2);">📚</div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">45</h3>
+                            <p class="stat-label">Common Subjects</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: var(--color-bg-3);">💰</div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">₹3L-₹100L</h3>
+                            <p class="stat-label">Salary Range</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: var(--color-bg-4);">⭐</div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">6.4</h3>
+                            <p class="stat-label">Avg Difficulty</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Charts -->
+                <div class="dashboard-charts">
+                    <div class="chart-row">
+                        <div class="chart-card">
+                            <h3>Difficulty Comparison (NISM vs US)</h3>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="difficultyChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <h3>Cost Comparison</h3>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="costChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-row">
+                        <div class="chart-card">
+                            <h3>Pass Rate Analysis</h3>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="passRateChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <h3>Study Hours Comparison</h3>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="studyHoursChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-row">
+                        <div class="chart-card full-width">
+                            <h3>ROI Comparison Table</h3>
+                            <div class="roi-table-container">
+                                <table class="roi-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Certification</th>
+                                            <th>Type</th>
+                                            <th>Difficulty</th>
+                                            <th>Cost</th>
+                                            <th>Senior Salary</th>
+                                            <th>ROI Score</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="roiTableBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Salaries Section -->
+            <section id="salaries" class="section">
+                <div class="section-header">
+                    <h2>Salary Analysis</h2>
+                    <p class="section-subtitle">Comprehensive salary progression and ROI analysis</p>
+                </div>
+
+                <!-- Salary Controls -->
+                <div class="salary-controls">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Experience Level</label>
+                            <select id="experienceFilter" class="form-control">
+                                <option value="all">All Levels</option>
+                                <option value="entry">Entry Level</option>
+                                <option value="mid">Mid Level</option>
+                                <option value="senior">Senior Level</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Certification Type</label>
+                            <select id="certTypeFilter" class="form-control">
+                                <option value="all">All Types</option>
+                                <option value="NISM">NISM Only</option>
+                                <option value="US">US Only</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salary Charts -->
+                <div class="salary-charts">
+                    <div class="chart-row">
+                        <div class="chart-card full-width">
+                            <h3>Salary Progression by Certification</h3>
+                            <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/1e7869768ceb9d02c5b41b67e4919bed/59a5caa0-4ea1-4a51-aac1-0c616277802c/5487bf3e.png" alt="Salary Progression Chart" class="chart-image">
+                        </div>
+                    </div>
+                    
+                    <div class="chart-row">
+                        <div class="chart-card">
+                            <h3>ROI Analysis</h3>
+                            <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/1e7869768ceb9d02c5b41b67e4919bed/87c5beb6-6fe1-4ae2-a926-0c1d63bdda31/16e71280.png" alt="ROI Analysis Chart" class="chart-image">
+                        </div>
+                        <div class="chart-card">
+                            <h3>Salary vs Difficulty</h3>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="salaryDifficultyChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-row">
+                        <div class="chart-card full-width">
+                            <h3>Interactive Salary Calculator</h3>
+                            <div class="salary-calculator">
+                                <div class="calculator-inputs">
+                                    <div class="form-group">
+                                        <label class="form-label">Select Certification</label>
+                                        <select id="calcCertification" class="form-control">
+                                            <option value="">Choose certification</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Years of Experience</label>
+                                        <input type="range" id="experienceSlider" class="form-control" min="0" max="15" value="5">
+                                        <span id="experienceValue">5 years</span>
+                                    </div>
+                                </div>
+                                <div class="calculator-result">
+                                    <h4>Estimated Salary Range</h4>
+                                    <div id="calculatedSalary" class="salary-display">Select a certification</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Subjects Section -->
+            <section id="subjects" class="section">
+                <div class="section-header">
+                    <h2>Subject Analysis</h2>
+                    <p class="section-subtitle">Deep dive into curriculum difficulty and common subjects</p>
+                </div>
+
+                <!-- Subject Controls -->
+                <div class="subject-controls">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Search Subjects</label>
+                            <input type="text" id="subjectSearch" class="form-control" placeholder="Search subjects...">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Difficulty Filter</label>
+                            <select id="subjectDifficultyFilter" class="form-control">
+                                <option value="all">All Difficulties</option>
+                                <option value="easy">Easy (1-5)</option>
+                                <option value="medium">Medium (6-7)</option>
+                                <option value="hard">Hard (8-10)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subject Analysis Content -->
+                <div class="subject-content">
+                    <div class="chart-row">
+                        <div class="chart-card full-width">
+                            <h3>Subject Difficulty Heatmap</h3>
+                            <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/1e7869768ceb9d02c5b41b67e4919bed/b4fe77f1-7f5f-4c92-aca0-45f9283cd7d8/a79c3312.png" alt="Subject Difficulty Heatmap" class="chart-image">
+                        </div>
+                    </div>
+                    
+                    <div class="chart-row">
+                        <div class="chart-card">
+                            <h3>Most Challenging Subjects</h3>
+                            <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/1e7869768ceb9d02c5b41b67e4919bed/948d73ee-83f7-494b-882a-d4ffbdbc2649/306a1d14.png" alt="Challenging Subjects Radar" class="chart-image">
+                        </div>
+                        <div class="chart-card">
+                            <h3>Common Subjects Ranking</h3>
+                            <div id="commonSubjectsTable" class="common-subjects">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-row">
+                        <div class="chart-card full-width">
+                            <h3>Subject Details Explorer</h3>
+                            <div id="subjectExplorer" class="subject-explorer">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Career Simulator Section -->
+            <section id="career" class="section">
+                <div class="section-header">
+                    <h2>Career Path Simulator</h2>
+                    <p class="section-subtitle">Interactive career progression tree with certifications and salaries</p>
+                </div>
+
+                <!-- Career Starting Point -->
+                <div class="career-starter" id="careerStarter">
+                    <h3>Choose Your Career Interest</h3>
+                    <div class="career-options">
+                        <button class="career-option" data-path="Investment Banking">
+                            <div class="option-icon">🏦</div>
+                            <div class="option-content">
+                                <h4>Investment Banking</h4>
+                                <p>Merchant banking, capital markets</p>
+                            </div>
+                        </button>
+                        <button class="career-option" data-path="Financial Planning">
+                            <div class="option-icon">📊</div>
+                            <div class="option-content">
+                                <h4>Financial Planning</h4>
+                                <p>Investment advisory, wealth management</p>
+                            </div>
+                        </button>
+                        <button class="career-option" data-path="Research Analysis">
+                            <div class="option-icon">🔍</div>
+                            <div class="option-content">
+                                <h4>Research Analysis</h4>
+                                <p>Equity research, market analysis</p>
+                            </div>
+                        </button>
+                        <button class="career-option" data-path="Alternative Investments">
+                            <div class="option-icon">📈</div>
+                            <div class="option-content">
+                                <h4>Alternative Investments</h4>
+                                <p>AIF management, hedge funds</p>
+                            </div>
+                        </button>
+                        <button class="career-option" data-path="Portfolio Management">
+                            <div class="option-icon">💼</div>
+                            <div class="option-content">
+                                <h4>Portfolio Management</h4>
+                                <p>Asset management, portfolio strategies</p>
+                            </div>
                         </button>
                     </div>
                 </div>
+
+                <!-- Career Tree Container -->
+                <div class="career-tree-container" id="careerTreeContainer" style="display: none;">
+                    <div class="tree-controls">
+                        <button id="resetTree" class="btn btn--secondary btn--sm">🔄 Reset</button>
+                        <div class="tree-legend">
+                            <span class="legend-item"><span class="node node-entry"></span> Entry Level</span>
+                            <span class="legend-item"><span class="node node-mid"></span> Mid Level</span>
+                            <span class="legend-item"><span class="node node-senior"></span> Senior Level</span>
+                        </div>
+                    </div>
+                    
+                    <div class="career-tree" id="careerTree">
+                        <!-- Dynamic tree content will be generated here -->
+                    </div>
+                    
+                    <div class="career-info" id="careerInfo">
+                        <h4>Career Information</h4>
+                        <p>Click on nodes to explore career progression paths</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Node Details Modal -->
+    <div id="nodeModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Certification Details</h3>
+                <button id="closeModal" class="btn-close">&times;</button>
             </div>
-        </header>
-
-        <!-- Navigation -->
-        <nav class="app-nav">
-            <div class="container">
-                <div class="nav-tabs" role="tablist">
-                    <button class="nav-tab active" data-tab="overview" role="tab">
-                        📊 Overview
-                    </button>
-                    <button class="nav-tab" data-tab="comparison" role="tab">
-                        ⚖️ Comparison Tool
-                    </button>
-                    <button class="nav-tab" data-tab="career-simulator" role="tab">
-                        🚀 Career Simulator
-                    </button>
-                    <button class="nav-tab" data-tab="roi-calculator" role="tab">
-                        💰 ROI Calculator
-                    </button>
-                    <button class="nav-tab" data-tab="learning-path" role="tab">
-                        🎯 Learning Path
-                    </button>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Main Content -->
-        <main class="app-main">
-            <div class="container">
-                
-                <!-- Overview Tab -->
-                <div class="tab-content active" id="overview">
-                    <div class="dashboard">
-                        <div class="dashboard-stats">
-                            <div class="stat-card">
-                                <h3>11</h3>
-                                <p>Total Certifications</p>
-                            </div>
-                            <div class="stat-card">
-                                <h3>6</h3>
-                                <p>US Certifications</p>
-                            </div>
-                            <div class="stat-card">
-                                <h3>5</h3>
-                                <p>Indian Certifications</p>
-                            </div>
-                            <div class="stat-card">
-                                <h3>₹1.5K - ₹3.25L</h3>
-                                <p>Cost Range</p>
-                            </div>
-                        </div>
-
-                        <div class="dashboard-controls">
-                            <div class="search-filter-section">
-                                <div class="search-box">
-                                    <input type="text" id="searchInput" placeholder="Search certifications..." class="form-control">
-                                </div>
-                                <div class="filter-controls">
-                                    <select id="typeFilter" class="form-control">
-                                        <option value="">All Types</option>
-                                        <option value="US">US Certifications</option>
-                                        <option value="Indian">Indian Certifications</option>
-                                    </select>
-                                    <select id="difficultyFilter" class="form-control">
-                                        <option value="">All Difficulties</option>
-                                        <option value="2">Easy (2⭐)</option>
-                                        <option value="3">Medium (3⭐)</option>
-                                        <option value="4">Hard (4⭐)</option>
-                                        <option value="5">Very Hard (5⭐)</option>
-                                    </select>
-                                    <select id="costFilter" class="form-control">
-                                        <option value="">All Costs</option>
-                                        <option value="low">Low (< ₹50K)</option>
-                                        <option value="medium">Medium (₹50K - ₹200K)</option>
-                                        <option value="high">High (> ₹200K)</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="certification-grid" id="certificationGrid">
-                            <!-- Certification cards will be dynamically generated -->
-                        </div>
-
-                        <div class="charts-section">
-                            <div class="chart-container">
-                                <h3>Cost vs Difficulty Analysis</h3>
-                                <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/a7c8e2a35bb658dbddfad199113f02ee/d71d518b-6e91-4e11-81c4-68fa47bb4e93/a792aed0.png" alt="Certification Cost vs Difficulty Bubble Chart" class="embedded-chart">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Comparison Tool Tab -->
-                <div class="tab-content" id="comparison">
-                    <div class="comparison-tool">
-                        <h2>Compare Certifications</h2>
-                        <p>Select up to 3 certifications to compare side by side</p>
-                        
-                        <div class="comparison-selectors">
-                            <div class="comparison-selector">
-                                <label>Certification 1</label>
-                                <select class="form-control comparison-select" data-index="0">
-                                    <option value="">Select certification...</option>
-                                </select>
-                            </div>
-                            <div class="comparison-selector">
-                                <label>Certification 2</label>
-                                <select class="form-control comparison-select" data-index="1">
-                                    <option value="">Select certification...</option>
-                                </select>
-                            </div>
-                            <div class="comparison-selector">
-                                <label>Certification 3 (Optional)</label>
-                                <select class="form-control comparison-select" data-index="2">
-                                    <option value="">Select certification...</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="comparison-results" id="comparisonResults">
-                            <!-- Comparison results will be displayed here -->
-                        </div>
-
-                        <div class="comparison-chart-container" style="position: relative; height: 400px;">
-                            <canvas id="comparisonChart"></canvas>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Career Simulator Tab -->
-                <div class="tab-content" id="career-simulator">
-                    <div class="career-simulator">
-                        <h2>Career Path Simulator</h2>
-                        <p>Explore different career paths based on your profile and goals</p>
-
-                        <div class="simulator-form">
-                            <div class="form-group">
-                                <label class="form-label">Current Experience Level</label>
-                                <select id="experienceLevel" class="form-control">
-                                    <option value="fresher">Fresher (0-2 years)</option>
-                                    <option value="junior">Junior (2-5 years)</option>
-                                    <option value="mid">Mid-level (5-8 years)</option>
-                                    <option value="senior">Senior (8+ years)</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Current Salary (LPA)</label>
-                                <input type="number" id="currentSalary" class="form-control" placeholder="e.g., 6">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Target Role</label>
-                                <select id="targetRole" class="form-control">
-                                    <option value="investment_analyst">Investment Advisor</option>
-                                    <option value="portfolio_manager">Portfolio Manager</option>
-                                    <option value="risk_manager">Risk Manager</option>
-                                    <option value="financial_planner">Financial Planner</option>
-                                    <option value="research_analyst">Research Analyst</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Investment Budget (₹)</label>
-                                <input type="number" id="investmentBudget" class="form-control" placeholder="e.g., 100000">
-                            </div>
-                            <button class="btn btn--primary" id="simulateCareer">Generate Career Path</button>
-                        </div>
-
-                        <div class="simulation-results" id="simulationResults">
-                            <!-- Simulation results will be displayed here -->
-                        </div>
-
-                        <div class="career-progression-chart" style="position: relative; height: 300px;">
-                            <canvas id="careerChart"></canvas>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ROI Calculator Tab -->
-                <div class="tab-content" id="roi-calculator">
-                    <div class="roi-calculator">
-                        <h2>ROI Calculator</h2>
-                        <p>Calculate the return on investment for your certification choices</p>
-
-                        <div class="roi-inputs">
-                            <div class="form-group">
-                                <label class="form-label">Select Certification</label>
-                                <select id="roiCertification" class="form-control">
-                                    <option value="">Choose a certification...</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Current Salary (LPA): <span id="currentSalaryDisplay">6</span></label>
-                                <input type="range" id="currentSalarySlider" class="slider" min="3" max="50" value="6">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Target Salary Increase (%): <span id="salaryIncreaseDisplay">50</span>%</label>
-                                <input type="range" id="salaryIncreaseSlider" class="slider" min="20" max="200" value="50">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Time to Complete (Months): <span id="timeToCompleteDisplay">12</span></label>
-                                <input type="range" id="timeToCompleteSlider" class="slider" min="2" max="36" value="12">
-                            </div>
-                        </div>
-
-                        <div class="roi-results" id="roiResults">
-                            <!-- ROI results will be displayed here -->
-                        </div>
-
-                        <div class="roi-chart-section">
-                            <div class="chart-container">
-                                <h3>ROI Analysis: Value for Money</h3>
-                                <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/a7c8e2a35bb658dbddfad199113f02ee/6e7ff607-dcbb-4c0c-af5a-0749865a8c1d/a866ca1e.png" alt="ROI Analysis Chart" class="embedded-chart">
-                            </div>
-                            <div class="roi-comparison-chart" style="position: relative; height: 300px;">
-                                <canvas id="roiChart"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Learning Path Tab -->
-                <div class="tab-content" id="learning-path">
-                    <div class="learning-path">
-                        <h2>Personalized Learning Path</h2>
-                        <p>Generate an optimized study schedule for your chosen certifications</p>
-
-                        <div class="path-configuration">
-                            <div class="form-group">
-                                <label class="form-label">Select Certifications (in order of preference)</label>
-                                <div class="certification-selection" id="pathCertifications">
-                                    <!-- Checkboxes for certifications will be generated -->
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Study Hours per Week</label>
-                                <input type="number" id="studyHours" class="form-control" value="10" min="5" max="40">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Start Date</label>
-                                <input type="date" id="startDate" class="form-control">
-                            </div>
-                            <button class="btn btn--primary" id="generatePath">Generate Learning Path</button>
-                        </div>
-
-                        <div class="learning-timeline" id="learningTimeline">
-                            <!-- Learning path timeline will be displayed here -->
-                        </div>
-
-                        <div class="study-schedule" id="studySchedule">
-                            <!-- Detailed study schedule will be displayed here -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </main>
-
-        <!-- Footer -->
-        <footer class="app-footer">
-            <div class="container">
-                <p>&copy; 2024 Financial Certification Career Planner ©Survesh Bajpai Research. Data based on 2019-2024 industry research.</p>
-            </div>
-        </footer>
-
-        <!-- Modal for certification details -->
-        <div class="modal hidden" id="certModal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 id="modalTitle"></h3>
-                    <button class="modal-close" id="modalClose">&times;</button>
-                </div>
-                <div class="modal-body" id="modalBody">
-                    <!-- Modal content will be populated dynamically -->
-                </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be populated dynamically -->
             </div>
         </div>
     </div>

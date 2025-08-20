@@ -1,0 +1,128 @@
+subject_code,cert,us_equiv,subject,difficulty,weight,hours,common_topic
+NISM_9_Capital_Markets,NISM Series 9,US Series 7,Capital Markets Introduction,4,7,8,Securities Markets
+NISM_9_Merchant_Banking,NISM Series 9,US Series 7,Merchant Banking Concepts,5,15,12,Investment Banking
+NISM_9_Registration,NISM Series 9,US Series 7,Registration & Code of Conduct,6,15,10,Regulatory Framework
+NISM_9_Issue_Terms,NISM Series 9,US Series 7,Issue Management Terms,7,5,6,Securities Offerings
+NISM_9_Process,NISM Series 9,US Series 7,Issue Management Process,8,18,15,Underwriting Process
+NISM_9_Obligations,NISM Series 9,US Series 7,Due Diligence & Obligations,7,15,12,Due Diligence
+NISM_9_MA,NISM Series 9,US Series 7,Mergers & Acquisitions,8,15,14,Corporate Actions
+NISM_9_Buyback,NISM Series 9,US Series 7,Disinvestment & Buyback,6,10,8,Corporate Finance
+US_7_Securities,US Series 7,US Series 7,Securities Products,7,25,30,Securities Markets
+US_7_Equity,US Series 7,US Series 7,Equity Securities,6,20,25,Investment Banking
+US_7_Corporate,US Series 7,US Series 7,Corporate Securities,8,15,20,Securities Offerings
+US_7_Municipal,US Series 7,US Series 7,Municipal Securities,7,10,15,Underwriting Process
+US_7_Options,US Series 7,US Series 7,Options & Derivatives,9,15,25,Due Diligence
+US_7_Customer,US Series 7,US Series 7,Customer Accounts,5,10,12,Regulatory Framework
+US_7_Transactions,US Series 7,US Series 7,Transaction Processing,6,5,8,Corporate Actions
+NISM_10A_Planning,NISM Series 10A,CFP,Personal Financial Planning,4,25,20,Financial Planning
+NISM_10A_Markets,NISM Series 10A,CFP,Indian Financial Markets,5,10,8,Investment Products
+NISM_10A_Products,NISM Series 10A,CFP,Investment Products,6,25,18,Investment Products
+NISM_10A_Portfolio,NISM Series 10A,CFP,Portfolio Management,7,15,15,Portfolio Management
+NISM_10A_Insurance,NISM Series 10A,CFP,Insurance Planning,5,10,10,Risk Management
+NISM_10A_Retirement,NISM Series 10A,CFP,Retirement Planning,6,10,12,Retirement Planning
+NISM_10A_Tax,NISM Series 10A,CFP,Tax & Estate Planning,7,10,15,Tax Planning
+NISM_10A_Regulatory,NISM Series 10A,CFP,Regulatory Environment,5,8,8,Ethics & Regulations
+NISM_10B_Insurance,NISM Series 10B,CFP,Risk & Insurance Planning,6,25,25,Risk Management
+NISM_10B_Retirement,NISM Series 10B,CFP,Retirement Planning,6,30,30,Retirement Planning
+NISM_10B_Taxation,NISM Series 10B,CFP,Taxation,7,20,25,Tax Planning
+NISM_10B_Estate,NISM Series 10B,CFP,Estate Planning,5,20,20,Estate Planning
+NISM_10B_Behavioral,NISM Series 10B,CFP,Behavioral Finance,6,10,15,Behavioral Finance
+NISM_10B_Comprehensive,NISM Series 10B,CFP,Comprehensive Planning,8,15,20,Financial Planning
+CFP_Intro,CFP,CFP,Financial Planning Process,4,16.7,25,Financial Planning
+CFP_Risk,CFP,CFP,Risk Analysis & Insurance,5,16.7,30,Risk Management
+CFP_Retirement,CFP,CFP,Retirement Planning,6,16.7,35,Retirement Planning
+CFP_Investment,CFP,CFP,Investment Planning,7,16.7,40,Investment Products
+CFP_Tax,CFP,CFP,Tax Planning,6,16.7,35,Tax Planning
+CFP_Estate,CFP,CFP,Estate Planning,5,16.5,30,Estate Planning
+NISM_15_Profession,NISM Series 15,CMT,Research Analyst Profession,3,3,3,Professional Standards
+NISM_15_Markets,NISM Series 15,CMT,Securities Market,4,6,6,Market Structure
+NISM_15_Terminology,NISM Series 15,CMT,Market Terminology,5,6,8,Market Analysis
+NISM_15_Research,NISM Series 15,CMT,Fundamentals of Research,6,5,8,Research Methods
+NISM_15_Economic,NISM Series 15,CMT,Economic Analysis,6,7,10,Economic Analysis
+NISM_15_Industry,NISM Series 15,CMT,Industry Analysis,7,10,15,Sector Analysis
+NISM_15_Company_Qual,NISM Series 15,CMT,Company Analysis - Qualitative,6,7,12,Company Analysis
+NISM_15_Company_Quant,NISM Series 15,CMT,Company Analysis - Quantitative,8,15,20,Financial Analysis
+NISM_15_Corporate,NISM Series 15,CMT,Corporate Actions,5,6,8,Corporate Actions
+NISM_15_Valuation,NISM Series 15,CMT,Valuation Principles,9,15,25,Valuation Methods
+NISM_15_Risk,NISM Series 15,CMT,Risk and Return,7,5,8,Risk Analysis
+NISM_15_Reports,NISM Series 15,CMT,Research Reports,5,5,6,Research Reports
+NISM_15_Regulatory,NISM Series 15,CMT,Legal & Regulatory,6,10,10,Regulations
+CMT_L1_Theory,CMT Level 1,CMT,Theory & History,5,9,15,Professional Standards
+CMT_L1_Charts,CMT Level 1,CMT,Chart Analysis,6,23,30,Market Analysis
+CMT_L1_Trends,CMT Level 1,CMT,Trend Analysis,6,16,25,Research Methods
+CMT_L1_Selection,CMT Level 1,CMT,Selection & Decision Making,7,13,20,Company Analysis
+CMT_L1_Markets,CMT Level 1,CMT,Markets & Indicators,5,12,18,Market Structure
+CMT_L1_Other,CMT Level 1,CMT,Statistics & Cycles,5,27,32,Economic Analysis
+CMT_L2_Charts,CMT Level 2,CMT,Advanced Chart Analysis,7,15,25,Market Analysis
+CMT_L2_Trends,CMT Level 2,CMT,Advanced Trend Analysis,7,15,25,Research Methods
+CMT_L2_Risk,CMT Level 2,CMT,Risk Management,8,15,30,Risk Analysis
+CMT_L2_Selection,CMT Level 2,CMT,Advanced Selection,7,10,20,Company Analysis
+CMT_L2_System,CMT Level 2,CMT,System Testing,8,10,25,Research Reports
+CMT_L2_Other,CMT Level 2,CMT,Market Indicators,6,35,35,Market Structure
+CMT_L3_Portfolio,CMT Level 3,CMT,Portfolio Management,8,18,35,Company Analysis
+CMT_L3_Risk,CMT Level 3,CMT,Advanced Risk Management,9,21,40,Risk Analysis
+CMT_L3_Classic,CMT Level 3,CMT,Classic Methods,7,21,35,Market Analysis
+CMT_L3_Assets,CMT Level 3,CMT,Asset Relationships,8,18,30,Sector Analysis
+CMT_L3_Behavioral,CMT Level 3,CMT,Behavioral Finance,6,10,20,Research Methods
+CMT_L3_Other,CMT Level 3,CMT,Volatility Analysis,6,12,20,Regulations
+NISM_19C_Investment,NISM Series 19C,CAIA,Investment Landscape,4,2,3,Investment Fundamentals
+NISM_19C_Types,NISM Series 19C,CAIA,Types of Investments,5,5,8,Alternative Investments
+NISM_19C_Suitability,NISM Series 19C,CAIA,AIF Suitability,6,2,5,Alternative Investments
+NISM_19C_Ecosystem,NISM Series 19C,CAIA,AIF Ecosystem,7,5,10,Fund Structure
+NISM_19C_Structure,NISM Series 19C,CAIA,Fund Structuring,8,10,18,Fund Structure
+NISM_19C_Fees,NISM Series 19C,CAIA,Fee Structure,6,10,15,Fund Management
+NISM_19C_Performance,NISM Series 19C,CAIA,Performance Measurement,8,10,18,Performance Analysis
+NISM_19C_Legal,NISM Series 19C,CAIA,Legal Documents,7,6,12,Legal Framework
+NISM_19C_Strategies,NISM Series 19C,CAIA,Investment Strategies,9,10,20,Investment Strategies
+NISM_19C_Governance,NISM Series 19C,CAIA,Fund Governance,7,10,15,Governance
+NISM_19C_Valuation,NISM Series 19C,CAIA,Valuation Techniques,9,10,20,Valuation
+NISM_19C_Monitoring,NISM Series 19C,CAIA,Fund Monitoring,6,10,12,Risk Management
+NISM_19C_Taxation,NISM Series 19C,CAIA,Taxation,7,5,10,Tax Planning
+NISM_19C_Regulatory,NISM Series 19C,CAIA,Regulatory Framework,8,10,15,Regulations
+NISM_19D_Investment,NISM Series 19D,CAIA,Investment Landscape,4,2,2,Investment Fundamentals
+NISM_19D_AIF_Suitability,NISM Series 19D,CAIA,AIF Suitability,5,2,3,Alternative Investments
+NISM_19D_Ecosystem,NISM Series 19D,CAIA,AIF Ecosystem,6,5,8,Fund Structure
+NISM_19D_Structure,NISM Series 19D,CAIA,Fund Structuring,7,10,12,Fund Structure
+NISM_19D_Fees,NISM Series 19D,CAIA,Fee Structure,5,10,10,Fund Management
+NISM_19D_Performance,NISM Series 19D,CAIA,Performance & Benchmarking,7,10,12,Performance Analysis
+NISM_19D_Legal,NISM Series 19D,CAIA,Legal Documents,6,6,8,Legal Framework
+NISM_19D_Strategies,NISM Series 19D,CAIA,Investment Strategies,8,10,15,Investment Strategies
+NISM_19D_Governance,NISM Series 19D,CAIA,Investment Process & Governance,6,10,12,Governance
+NISM_19D_Valuation,NISM Series 19D,CAIA,Valuation,8,10,15,Valuation
+NISM_19D_Monitoring,NISM Series 19D,CAIA,Fund Monitoring & Exit,5,10,10,Risk Management
+NISM_19D_Taxation,NISM Series 19D,CAIA,Taxation,6,5,8,Tax Planning
+NISM_19D_Regulatory,NISM Series 19D,CAIA,Regulatory Framework,7,10,12,Regulations
+CAIA_L1_Ethics,CAIA Level 1,CAIA,Professional Standards,5,15,30,Legal Framework
+CAIA_L1_Intro,CAIA Level 1,CAIA,Alternative Investments Introduction,6,20,45,Alternative Investments
+CAIA_L1_Real,CAIA Level 1,CAIA,Real Assets,7,20,50,Alternative Investments
+CAIA_L1_Hedge,CAIA Level 1,CAIA,Hedge Funds,8,20,55,Investment Strategies
+CAIA_L1_PE,CAIA Level 1,CAIA,Private Equity,7,15,45,Investment Strategies
+CAIA_L1_Structured,CAIA Level 1,CAIA,Structured Products,8,10,35,Investment Fundamentals
+CAIA_L2_Institutional,CAIA Level 2,CAIA,Institutional Asset Owners,6,10,30,Fund Management
+CAIA_L2_Allocation,CAIA Level 2,CAIA,Asset Allocation,8,10,35,Investment Strategies
+CAIA_L2_Risk,CAIA Level 2,CAIA,Risk Management,8,10,40,Risk Management
+CAIA_L2_Methods,CAIA Level 2,CAIA,Methods & Models,9,10,45,Valuation
+CAIA_L2_Access,CAIA Level 2,CAIA,Accessing Alternatives,7,10,35,Fund Structure
+CAIA_L2_Managers,CAIA Level 2,CAIA,Manager Selection,7,10,30,Performance Analysis
+CAIA_L2_Volatility,CAIA Level 2,CAIA,Volatility Strategies,8,10,35,Investment Strategies
+NISM_21B_Landscape,NISM Series 21B,CFA,Investment Landscape,4,3,5,Investment Fundamentals
+NISM_21B_Markets,NISM Series 21B,CFA,Securities Markets,5,2,4,Market Structure
+NISM_21B_Stocks,NISM Series 21B,CFA,Investing in Stocks,6,5,10,Equity Analysis
+NISM_21B_Fixed,NISM Series 21B,CFA,Fixed Income Securities,8,5,12,Fixed Income
+NISM_21B_Derivatives,NISM Series 21B,CFA,Derivatives,9,5,15,Derivatives
+NISM_21B_Mutual,NISM Series 21B,CFA,Mutual Funds,5,5,8,Investment Products
+NISM_21B_Role,NISM Series 21B,CFA,Role of Portfolio Managers,6,10,15,Portfolio Management
+NISM_21B_Operations,NISM Series 21B,CFA,Operational Aspects,7,10,18,Operations
+NISM_21B_Process,NISM Series 21B,CFA,Portfolio Management Process,8,10,20,Portfolio Management
+NISM_21B_Taxation,NISM Series 21B,CFA,Taxation,6,5,8,Tax Planning
+NISM_21B_Regulatory,NISM Series 21B,CFA,Regulatory & Ethical Aspects,7,10,15,Ethics & Regulations
+NISM_21B_Indices,NISM Series 21B,CFA,Introduction to Indices,5,5,8,Market Analysis
+NISM_21B_Efficiency,NISM Series 21B,CFA,Informational Efficiency,7,5,10,Market Theory
+NISM_21B_Behavioral,NISM Series 21B,CFA,Behavioral Finance,6,5,8,Behavioral Finance
+NISM_21B_MPT,NISM Series 21B,CFA,Modern Portfolio Theory,8,5,12,Portfolio Theory
+NISM_21B_CMT,NISM Series 21B,CFA,Capital Market Theory,8,5,12,Market Theory
+NISM_21B_Risk,NISM Series 21B,CFA,Risk,7,10,15,Risk Management
+NISM_21B_Equity_Strategies,NISM Series 21B,CFA,Equity Portfolio Strategies,9,15,25,Portfolio Strategies
+NISM_21B_FI_Strategies,NISM Series 21B,CFA,Fixed Income Strategies,9,15,25,Portfolio Strategies
+NISM_21B_Performance,NISM Series 21B,CFA,Performance Measurement,8,10,18,Performance Analysis
+NISM_21B_Rebalancing,NISM Series 21B,CFA,Portfolio Rebalancing,7,5,10,Portfolio Management
