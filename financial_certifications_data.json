@@ -1,0 +1,848 @@
+{
+  "certifications": {
+    "CFA": {
+      "type": "US",
+      "full_name": "Chartered Financial Analyst",
+      "levels": 3,
+      "level_details": {
+        "Level 1": {
+          "difficulty": 4,
+          "salary_lpa": "4-6",
+          "cost_inr": 125000,
+          "duration_months": 12
+        },
+        "Level 2": {
+          "difficulty": 4.5,
+          "salary_lpa": "6-10",
+          "cost_inr": 100000,
+          "duration_months": 12
+        },
+        "Level 3": {
+          "difficulty": 4.5,
+          "salary_lpa": "12-18",
+          "cost_inr": 100000,
+          "duration_months": 12
+        }
+      },
+      "total_cost_inr": 325000,
+      "total_duration_years": 3,
+      "overall_difficulty": 4.5,
+      "pass_rate": "40-50%",
+      "career_opportunities": [
+        "Investment Analyst",
+        "Portfolio Manager",
+        "Research Analyst",
+        "Investment Banking",
+        "Wealth Management"
+      ],
+      "salary_range_lpa": "6-50+",
+      "global_recognition": "Very High",
+      "work_experience_required": "4 years",
+      "study_hours": 900
+    },
+    "PMS_NISM_21B": {
+      "type": "Indian",
+      "full_name": "Portfolio Management Services - NISM Series XXI-B",
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3,
+          "salary_lpa": "6-15",
+          "cost_inr": 3000,
+          "duration_months": 3
+        }
+      },
+      "total_cost_inr": 3000,
+      "total_duration_years": 0.25,
+      "overall_difficulty": 3,
+      "pass_rate": "60%+",
+      "career_opportunities": [
+        "Portfolio Manager",
+        "PMS Principal Officer",
+        "Investment Advisor"
+      ],
+      "salary_range_lpa": "6-25",
+      "global_recognition": "India Specific",
+      "work_experience_required": "None",
+      "study_hours": 100
+    },
+    "CAIA": {
+      "type": "US",
+      "full_name": "Chartered Alternative Investment Analyst",
+      "levels": 2,
+      "level_details": {
+        "Level 1": {
+          "difficulty": 3.5,
+          "salary_lpa": "8-15",
+          "cost_inr": 115000,
+          "duration_months": 6
+        },
+        "Level 2": {
+          "difficulty": 4,
+          "salary_lpa": "12-25",
+          "cost_inr": 82000,
+          "duration_months": 6
+        }
+      },
+      "total_cost_inr": 197000,
+      "total_duration_years": 1,
+      "overall_difficulty": 3.75,
+      "pass_rate": "50-69%",
+      "career_opportunities": [
+        "Alternative Investment Manager",
+        "Hedge Fund Analyst",
+        "Private Equity Associate"
+      ],
+      "salary_range_lpa": "5-25",
+      "global_recognition": "High",
+      "work_experience_required": "1 year",
+      "study_hours": 400
+    },
+    "AIF_NISM_19C": {
+      "type": "Indian",
+      "full_name": "Alternative Investment Fund Managers - NISM Series XIX-C",
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3.5,
+          "salary_lpa": "8-20",
+          "cost_inr": 3000,
+          "duration_months": 3
+        }
+      },
+      "total_cost_inr": 3000,
+      "total_duration_years": 0.25,
+      "overall_difficulty": 3.5,
+      "pass_rate": "60%+",
+      "career_opportunities": [
+        "AIF Manager",
+        "Alternative Investment Analyst",
+        "Fund Manager"
+      ],
+      "salary_range_lpa": "8-25",
+      "global_recognition": "India Specific",
+      "work_experience_required": "None",
+      "study_hours": 120
+    },
+    "AIF_NISM_19D": {
+      "type": "Indian",
+      "full_name": "Category I and II AIF Managers - NISM Series XIX-D",
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3,
+          "salary_lpa": "6-18",
+          "cost_inr": 1500,
+          "duration_months": 2
+        }
+      },
+      "total_cost_inr": 1500,
+      "total_duration_years": 0.17,
+      "overall_difficulty": 3,
+      "pass_rate": "60%+",
+      "career_opportunities": [
+        "Category I/II AIF Manager",
+        "Investment Fund Manager"
+      ],
+      "salary_range_lpa": "6-20",
+      "global_recognition": "India Specific",
+      "work_experience_required": "None",
+      "study_hours": 80
+    },
+    "CMT": {
+      "type": "US",
+      "full_name": "Chartered Market Technician",
+      "levels": 3,
+      "level_details": {
+        "Level 1": {
+          "difficulty": 3,
+          "salary_lpa": "6-12",
+          "cost_inr": 64000,
+          "duration_months": 6
+        },
+        "Level 2": {
+          "difficulty": 3.5,
+          "salary_lpa": "8-15",
+          "cost_inr": 88000,
+          "duration_months": 6
+        },
+        "Level 3": {
+          "difficulty": 4,
+          "salary_lpa": "10-20",
+          "cost_inr": 88000,
+          "duration_months": 6
+        }
+      },
+      "total_cost_inr": 240000,
+      "total_duration_years": 1.5,
+      "overall_difficulty": 3.5,
+      "pass_rate": "50-60%",
+      "career_opportunities": [
+        "Technical Analyst",
+        "Quantitative Analyst",
+        "Trading Strategist"
+      ],
+      "salary_range_lpa": "10-25",
+      "global_recognition": "High",
+      "work_experience_required": "None",
+      "study_hours": 600
+    },
+    "RA_NISM_15": {
+      "type": "Indian",
+      "full_name": "Research Analyst - NISM Series XV",
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 2.5,
+          "salary_lpa": "4-12",
+          "cost_inr": 1500,
+          "duration_months": 2
+        }
+      },
+      "total_cost_inr": 1500,
+      "total_duration_years": 0.17,
+      "overall_difficulty": 2.5,
+      "pass_rate": "65%+",
+      "career_opportunities": [
+        "Research Analyst",
+        "Equity Analyst",
+        "Investment Advisor"
+      ],
+      "salary_range_lpa": "3-15",
+      "global_recognition": "India Specific",
+      "work_experience_required": "None",
+      "study_hours": 60
+    },
+    "CFP": {
+      "type": "US",
+      "full_name": "Certified Financial Planner",
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3,
+          "salary_lpa": "6-20",
+          "cost_inr": 150000,
+          "duration_months": 12
+        }
+      },
+      "total_cost_inr": 150000,
+      "total_duration_years": 1,
+      "overall_difficulty": 3,
+      "pass_rate": "65%",
+      "career_opportunities": [
+        "Financial Planner",
+        "Wealth Advisor",
+        "Investment Consultant"
+      ],
+      "salary_range_lpa": "6-20",
+      "global_recognition": "High",
+      "work_experience_required": "3 years",
+      "study_hours": 300
+    },
+    "IA_NISM_10A": {
+      "type": "Indian",
+      "full_name": "Investment Adviser Level 1 - NISM Series X-A",
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 2.5,
+          "salary_lpa": "4-10",
+          "cost_inr": 3000,
+          "duration_months": 3
+        }
+      },
+      "total_cost_inr": 3000,
+      "total_duration_years": 0.25,
+      "overall_difficulty": 2.5,
+      "pass_rate": "60%+",
+      "career_opportunities": [
+        "Investment Advisor",
+        "Financial Consultant",
+        "Wealth Manager"
+      ],
+      "salary_range_lpa": "4-12",
+      "global_recognition": "India Specific",
+      "work_experience_required": "None",
+      "study_hours": 80
+    },
+    "IA_NISM_10B": {
+      "type": "Indian",
+      "full_name": "Investment Adviser Level 2 - NISM Series X-B",
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3,
+          "salary_lpa": "6-15",
+          "cost_inr": 3000,
+          "duration_months": 3
+        }
+      },
+      "total_cost_inr": 3000,
+      "total_duration_years": 0.25,
+      "overall_difficulty": 3,
+      "pass_rate": "60%+",
+      "career_opportunities": [
+        "Senior Investment Advisor",
+        "Financial Planning Manager"
+      ],
+      "salary_range_lpa": "6-18",
+      "global_recognition": "India Specific",
+      "work_experience_required": "None",
+      "study_hours": 100
+    },
+    "FRM": {
+      "type": "US",
+      "full_name": "Financial Risk Manager",
+      "levels": 2,
+      "level_details": {
+        "Level 1": {
+          "difficulty": 4,
+          "salary_lpa": "6-10",
+          "cost_inr": 80000,
+          "duration_months": 6
+        },
+        "Level 2": {
+          "difficulty": 4.5,
+          "salary_lpa": "12-20",
+          "cost_inr": 80000,
+          "duration_months": 6
+        }
+      },
+      "total_cost_inr": 160000,
+      "total_duration_years": 1,
+      "overall_difficulty": 4.25,
+      "pass_rate": "40-50%",
+      "career_opportunities": [
+        "Risk Manager",
+        "Credit Risk Analyst",
+        "Market Risk Manager"
+      ],
+      "salary_range_lpa": "9-50",
+      "global_recognition": "Very High",
+      "work_experience_required": "2 years",
+      "study_hours": 650
+    },
+    "SORM_NISM_7": {
+      "type": "Indian",
+      "full_name": "Securities Operations and Risk Management - NISM Series VII",
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 2,
+          "salary_lpa": "3-8",
+          "cost_inr": 1500,
+          "duration_months": 2
+        }
+      },
+      "total_cost_inr": 1500,
+      "total_duration_years": 0.17,
+      "overall_difficulty": 2,
+      "pass_rate": "70%+",
+      "career_opportunities": [
+        "Risk Management Officer",
+        "Operations Manager",
+        "Compliance Officer"
+      ],
+      "salary_range_lpa": "3-10",
+      "global_recognition": "India Specific",
+      "work_experience_required": "None",
+      "study_hours": 50
+    }
+  },
+  "career_progression": {
+    "CFA": {
+      "certificate_name": "Chartered Financial Analyst",
+      "type": "US",
+      "min_salary": 6,
+      "max_salary": 50,
+      "avg_salary": 28.0,
+      "difficulty": 4.5,
+      "cost": 325000,
+      "duration_months": 36,
+      "career_opportunities": [
+        "Investment Analyst",
+        "Portfolio Manager",
+        "Research Analyst",
+        "Investment Banking",
+        "Wealth Management"
+      ],
+      "levels": 3,
+      "level_details": {
+        "Level 1": {
+          "difficulty": 4,
+          "salary_lpa": "4-6",
+          "cost_inr": 125000,
+          "duration_months": 12
+        },
+        "Level 2": {
+          "difficulty": 4.5,
+          "salary_lpa": "6-10",
+          "cost_inr": 100000,
+          "duration_months": 12
+        },
+        "Level 3": {
+          "difficulty": 4.5,
+          "salary_lpa": "12-18",
+          "cost_inr": 100000,
+          "duration_months": 12
+        }
+      },
+      "pass_rate": "40-50%",
+      "study_hours": 900,
+      "work_experience": "4 years",
+      "global_recognition": "Very High"
+    },
+    "PMS_NISM_21B": {
+      "certificate_name": "Portfolio Management Services - NISM Series XXI-B",
+      "type": "Indian",
+      "min_salary": 6,
+      "max_salary": 25,
+      "avg_salary": 15.5,
+      "difficulty": 3,
+      "cost": 3000,
+      "duration_months": 3.0,
+      "career_opportunities": [
+        "Portfolio Manager",
+        "PMS Principal Officer",
+        "Investment Advisor"
+      ],
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3,
+          "salary_lpa": "6-15",
+          "cost_inr": 3000,
+          "duration_months": 3
+        }
+      },
+      "pass_rate": "60%+",
+      "study_hours": 100,
+      "work_experience": "None",
+      "global_recognition": "India Specific"
+    },
+    "CAIA": {
+      "certificate_name": "Chartered Alternative Investment Analyst",
+      "type": "US",
+      "min_salary": 5,
+      "max_salary": 25,
+      "avg_salary": 15.0,
+      "difficulty": 3.75,
+      "cost": 197000,
+      "duration_months": 12,
+      "career_opportunities": [
+        "Alternative Investment Manager",
+        "Hedge Fund Analyst",
+        "Private Equity Associate"
+      ],
+      "levels": 2,
+      "level_details": {
+        "Level 1": {
+          "difficulty": 3.5,
+          "salary_lpa": "8-15",
+          "cost_inr": 115000,
+          "duration_months": 6
+        },
+        "Level 2": {
+          "difficulty": 4,
+          "salary_lpa": "12-25",
+          "cost_inr": 82000,
+          "duration_months": 6
+        }
+      },
+      "pass_rate": "50-69%",
+      "study_hours": 400,
+      "work_experience": "1 year",
+      "global_recognition": "High"
+    },
+    "AIF_NISM_19C": {
+      "certificate_name": "Alternative Investment Fund Managers - NISM Series XIX-C",
+      "type": "Indian",
+      "min_salary": 8,
+      "max_salary": 25,
+      "avg_salary": 16.5,
+      "difficulty": 3.5,
+      "cost": 3000,
+      "duration_months": 3.0,
+      "career_opportunities": [
+        "AIF Manager",
+        "Alternative Investment Analyst",
+        "Fund Manager"
+      ],
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3.5,
+          "salary_lpa": "8-20",
+          "cost_inr": 3000,
+          "duration_months": 3
+        }
+      },
+      "pass_rate": "60%+",
+      "study_hours": 120,
+      "work_experience": "None",
+      "global_recognition": "India Specific"
+    },
+    "AIF_NISM_19D": {
+      "certificate_name": "Category I and II AIF Managers - NISM Series XIX-D",
+      "type": "Indian",
+      "min_salary": 6,
+      "max_salary": 20,
+      "avg_salary": 13.0,
+      "difficulty": 3,
+      "cost": 1500,
+      "duration_months": 2.04,
+      "career_opportunities": [
+        "Category I/II AIF Manager",
+        "Investment Fund Manager"
+      ],
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3,
+          "salary_lpa": "6-18",
+          "cost_inr": 1500,
+          "duration_months": 2
+        }
+      },
+      "pass_rate": "60%+",
+      "study_hours": 80,
+      "work_experience": "None",
+      "global_recognition": "India Specific"
+    },
+    "CMT": {
+      "certificate_name": "Chartered Market Technician",
+      "type": "US",
+      "min_salary": 10,
+      "max_salary": 25,
+      "avg_salary": 17.5,
+      "difficulty": 3.5,
+      "cost": 240000,
+      "duration_months": 18.0,
+      "career_opportunities": [
+        "Technical Analyst",
+        "Quantitative Analyst",
+        "Trading Strategist"
+      ],
+      "levels": 3,
+      "level_details": {
+        "Level 1": {
+          "difficulty": 3,
+          "salary_lpa": "6-12",
+          "cost_inr": 64000,
+          "duration_months": 6
+        },
+        "Level 2": {
+          "difficulty": 3.5,
+          "salary_lpa": "8-15",
+          "cost_inr": 88000,
+          "duration_months": 6
+        },
+        "Level 3": {
+          "difficulty": 4,
+          "salary_lpa": "10-20",
+          "cost_inr": 88000,
+          "duration_months": 6
+        }
+      },
+      "pass_rate": "50-60%",
+      "study_hours": 600,
+      "work_experience": "None",
+      "global_recognition": "High"
+    },
+    "RA_NISM_15": {
+      "certificate_name": "Research Analyst - NISM Series XV",
+      "type": "Indian",
+      "min_salary": 3,
+      "max_salary": 15,
+      "avg_salary": 9.0,
+      "difficulty": 2.5,
+      "cost": 1500,
+      "duration_months": 2.04,
+      "career_opportunities": [
+        "Research Analyst",
+        "Equity Analyst",
+        "Investment Advisor"
+      ],
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 2.5,
+          "salary_lpa": "4-12",
+          "cost_inr": 1500,
+          "duration_months": 2
+        }
+      },
+      "pass_rate": "65%+",
+      "study_hours": 60,
+      "work_experience": "None",
+      "global_recognition": "India Specific"
+    },
+    "CFP": {
+      "certificate_name": "Certified Financial Planner",
+      "type": "US",
+      "min_salary": 6,
+      "max_salary": 20,
+      "avg_salary": 13.0,
+      "difficulty": 3,
+      "cost": 150000,
+      "duration_months": 12,
+      "career_opportunities": [
+        "Financial Planner",
+        "Wealth Advisor",
+        "Investment Consultant"
+      ],
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3,
+          "salary_lpa": "6-20",
+          "cost_inr": 150000,
+          "duration_months": 12
+        }
+      },
+      "pass_rate": "65%",
+      "study_hours": 300,
+      "work_experience": "3 years",
+      "global_recognition": "High"
+    },
+    "IA_NISM_10A": {
+      "certificate_name": "Investment Adviser Level 1 - NISM Series X-A",
+      "type": "Indian",
+      "min_salary": 4,
+      "max_salary": 12,
+      "avg_salary": 8.0,
+      "difficulty": 2.5,
+      "cost": 3000,
+      "duration_months": 3.0,
+      "career_opportunities": [
+        "Investment Advisor",
+        "Financial Consultant",
+        "Wealth Manager"
+      ],
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 2.5,
+          "salary_lpa": "4-10",
+          "cost_inr": 3000,
+          "duration_months": 3
+        }
+      },
+      "pass_rate": "60%+",
+      "study_hours": 80,
+      "work_experience": "None",
+      "global_recognition": "India Specific"
+    },
+    "IA_NISM_10B": {
+      "certificate_name": "Investment Adviser Level 2 - NISM Series X-B",
+      "type": "Indian",
+      "min_salary": 6,
+      "max_salary": 18,
+      "avg_salary": 12.0,
+      "difficulty": 3,
+      "cost": 3000,
+      "duration_months": 3.0,
+      "career_opportunities": [
+        "Senior Investment Advisor",
+        "Financial Planning Manager"
+      ],
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 3,
+          "salary_lpa": "6-15",
+          "cost_inr": 3000,
+          "duration_months": 3
+        }
+      },
+      "pass_rate": "60%+",
+      "study_hours": 100,
+      "work_experience": "None",
+      "global_recognition": "India Specific"
+    },
+    "FRM": {
+      "certificate_name": "Financial Risk Manager",
+      "type": "US",
+      "min_salary": 9,
+      "max_salary": 50,
+      "avg_salary": 29.5,
+      "difficulty": 4.25,
+      "cost": 160000,
+      "duration_months": 12,
+      "career_opportunities": [
+        "Risk Manager",
+        "Credit Risk Analyst",
+        "Market Risk Manager"
+      ],
+      "levels": 2,
+      "level_details": {
+        "Level 1": {
+          "difficulty": 4,
+          "salary_lpa": "6-10",
+          "cost_inr": 80000,
+          "duration_months": 6
+        },
+        "Level 2": {
+          "difficulty": 4.5,
+          "salary_lpa": "12-20",
+          "cost_inr": 80000,
+          "duration_months": 6
+        }
+      },
+      "pass_rate": "40-50%",
+      "study_hours": 650,
+      "work_experience": "2 years",
+      "global_recognition": "Very High"
+    },
+    "SORM_NISM_7": {
+      "certificate_name": "Securities Operations and Risk Management - NISM Series VII",
+      "type": "Indian",
+      "min_salary": 3,
+      "max_salary": 10,
+      "avg_salary": 6.5,
+      "difficulty": 2,
+      "cost": 1500,
+      "duration_months": 2.04,
+      "career_opportunities": [
+        "Risk Management Officer",
+        "Operations Manager",
+        "Compliance Officer"
+      ],
+      "levels": 1,
+      "level_details": {
+        "Single Level": {
+          "difficulty": 2,
+          "salary_lpa": "3-8",
+          "cost_inr": 1500,
+          "duration_months": 2
+        }
+      },
+      "pass_rate": "70%+",
+      "study_hours": 50,
+      "work_experience": "None",
+      "global_recognition": "India Specific"
+    }
+  },
+  "roi_analysis": [
+    {
+      "Certificate": "CFA",
+      "Name": "Chartered Financial Analyst",
+      "Type": "US",
+      "Cost_INR": 325000,
+      "Avg_Salary_LPA": 28.0,
+      "Simple_ROI": 8.62,
+      "Difficulty": 4.5,
+      "Duration_Months": 36
+    },
+    {
+      "Certificate": "PMS_NISM_21B",
+      "Name": "Portfolio Management Services - NISM Series XXI-B",
+      "Type": "Indian",
+      "Cost_INR": 3000,
+      "Avg_Salary_LPA": 15.5,
+      "Simple_ROI": 516.67,
+      "Difficulty": 3,
+      "Duration_Months": 3.0
+    },
+    {
+      "Certificate": "CAIA",
+      "Name": "Chartered Alternative Investment Analyst",
+      "Type": "US",
+      "Cost_INR": 197000,
+      "Avg_Salary_LPA": 15.0,
+      "Simple_ROI": 7.61,
+      "Difficulty": 3.75,
+      "Duration_Months": 12
+    },
+    {
+      "Certificate": "AIF_NISM_19C",
+      "Name": "Alternative Investment Fund Managers - NISM Series XIX-C",
+      "Type": "Indian",
+      "Cost_INR": 3000,
+      "Avg_Salary_LPA": 16.5,
+      "Simple_ROI": 550.0,
+      "Difficulty": 3.5,
+      "Duration_Months": 3.0
+    },
+    {
+      "Certificate": "AIF_NISM_19D",
+      "Name": "Category I and II AIF Managers - NISM Series XIX-D",
+      "Type": "Indian",
+      "Cost_INR": 1500,
+      "Avg_Salary_LPA": 13.0,
+      "Simple_ROI": 866.67,
+      "Difficulty": 3,
+      "Duration_Months": 2.04
+    },
+    {
+      "Certificate": "CMT",
+      "Name": "Chartered Market Technician",
+      "Type": "US",
+      "Cost_INR": 240000,
+      "Avg_Salary_LPA": 17.5,
+      "Simple_ROI": 7.29,
+      "Difficulty": 3.5,
+      "Duration_Months": 18.0
+    },
+    {
+      "Certificate": "RA_NISM_15",
+      "Name": "Research Analyst - NISM Series XV",
+      "Type": "Indian",
+      "Cost_INR": 1500,
+      "Avg_Salary_LPA": 9.0,
+      "Simple_ROI": 600.0,
+      "Difficulty": 2.5,
+      "Duration_Months": 2.04
+    },
+    {
+      "Certificate": "CFP",
+      "Name": "Certified Financial Planner",
+      "Type": "US",
+      "Cost_INR": 150000,
+      "Avg_Salary_LPA": 13.0,
+      "Simple_ROI": 8.67,
+      "Difficulty": 3,
+      "Duration_Months": 12
+    },
+    {
+      "Certificate": "IA_NISM_10A",
+      "Name": "Investment Adviser Level 1 - NISM Series X-A",
+      "Type": "Indian",
+      "Cost_INR": 3000,
+      "Avg_Salary_LPA": 8.0,
+      "Simple_ROI": 266.67,
+      "Difficulty": 2.5,
+      "Duration_Months": 3.0
+    },
+    {
+      "Certificate": "IA_NISM_10B",
+      "Name": "Investment Adviser Level 2 - NISM Series X-B",
+      "Type": "Indian",
+      "Cost_INR": 3000,
+      "Avg_Salary_LPA": 12.0,
+      "Simple_ROI": 400.0,
+      "Difficulty": 3,
+      "Duration_Months": 3.0
+    },
+    {
+      "Certificate": "FRM",
+      "Name": "Financial Risk Manager",
+      "Type": "US",
+      "Cost_INR": 160000,
+      "Avg_Salary_LPA": 29.5,
+      "Simple_ROI": 18.44,
+      "Difficulty": 4.25,
+      "Duration_Months": 12
+    },
+    {
+      "Certificate": "SORM_NISM_7",
+      "Name": "Securities Operations and Risk Management - NISM Series VII",
+      "Type": "Indian",
+      "Cost_INR": 1500,
+      "Avg_Salary_LPA": 6.5,
+      "Simple_ROI": 433.33,
+      "Difficulty": 2,
+      "Duration_Months": 2.04
+    }
+  ]
+}
